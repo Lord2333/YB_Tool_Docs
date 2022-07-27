@@ -18,6 +18,22 @@
 
 ![注册账号](https://s2.loli.net/2022/07/27/8hVcRUP3EJdNBKj.png)
 
-然后将跳转到API配置界面按照下图配置
+#### II 更改代理API
 
-![image.png](https://s2.loli.net/2022/07/27/VBJ31IF85ARKWxk.png)
+（如果不修改API可跳过这一步）然后将跳转到API配置界面按照下图配置
+
+![获取API](https://s2.loli.net/2022/07/27/VBJ31IF85ARKWxk.png)
+
+进入程序后，如果未添加白名单则会出现如下提示：
+
+![错误提示](https://s2.loli.net/2022/07/27/WuzhLCAwT3orEN5.png)
+
+进入芝麻代理后台，找到IP白名单，按照提示添加白名单即可。
+
+#### III 运行
+
+进入程序后填写需要提升访问量的轻应用Appid，即轻应用链接后数字如下：
+
+![只需要数字即可](https://s2.loli.net/2022/07/27/FUGqRie6XfHs3Ny.png)
+
+将这一串数字填入程序，并

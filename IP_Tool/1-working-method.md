@@ -85,3 +85,35 @@ def Run(App_id, IP):
 
 本文档仅简述脚本工作原理，关于可视化版本的多线程实现不在本文档讨论范围中。
 
+将上述函数进行简单组装即可得到main函数：
+
+```python
+def main():
+	flag, msg = check_zm() # 检验代理池连通性
+	if flag:
+		Appid = input('请输入轻应用ID：')
+		run_time = int(input('请输入运行次数：'))
+		if run_time <= 5:
+			run_time = 1
+		else:
+			run_time = int(run_time / 5)
+		cnt = 0
+		while run_time: # 执行任务
+			run_time -= 1
+			IPS = Deal_IP()
+			for ip in IPS:
+				cnt += 1
+				Run(Appid, ip)
+				print('\r当前请求%d次' % cnt, end='')
+				time.sleep(1)
+		print('\n任务完成！')
+	else:
+		print(msg) # 显示错误信息
+		print("芝麻代理官网：https://www.zmhttp.com/")
+		i = input('按回车重试')
+		main()
+```
+
+运行效果如下：
+
+![运行示例](<../.gitbook/assets/Action 2022-7-27 20-40-40.gif>)
