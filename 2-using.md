@@ -14,9 +14,7 @@
 
 #### I 注册代理池
 
-
-
-先注册实名，然后在账号中心白嫖每日IP，然后点击上方NavBar的“获取API”按钮，如下图。
+本项目使用的是芝麻代理，先进入官网：[https://www.zmhttp.com/](https://www.zmhttp.com/)，注册并完成实名，然后在账号中心白嫖每日IP，然后点击上方NavBar的“获取API”按钮，如下图。
 
 ![注册账号](https://s2.loli.net/2022/07/27/8hVcRUP3EJdNBKj.png)
 
