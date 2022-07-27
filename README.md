@@ -1,5 +1,9 @@
 # 简述
 
+
+
+![](https://img.shields.io/github/last-commit/Lord2333/YB\_Tool\_Docs)
+
 本文档将简要介绍核自易班工具箱的工作原理和使用方法。截止2022年8月，工具箱已有如下功能：
 
 1. 提高轻应用访问量
